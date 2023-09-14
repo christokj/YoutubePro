@@ -1,0 +1,141 @@
+
+*{
+    padding:0;
+    margin: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    font-family:'poppins', sans-serif;;
+}
+a{
+    text-decoration: none;
+    color: #5a5a5a;
+}
+img{
+    cursor: pointer;
+}
+.flex-div{
+    display: flex;
+    align-items: center;
+    box-shadow: none;
+}
+nav{
+    padding: 10px 2%;
+    justify-content: space-between;
+    background-color: #fff;
+    position: sticky;
+    top:0;
+    
+}
+.nav-right img{
+    width: 25px;
+    margin-right:25px;
+
+}
+.nav-right .icon-size{
+    width:40px;
+}
+.nav-right .user-icon{
+    width: 40px;
+    border-radius: 50%;
+    margin-right: 0;
+}
+.menu-icon{
+    width: 22px;
+    
+}
+.mic-icon{
+    width: 50px;
+}
+.search-box{
+    border: 1px solid #ccc;
+    margin-right: 15px;
+    padding: 8px 12px;
+    border-radius: 25px;
+}
+input{
+    width: 550px;
+    background-color: transparent;
+    outline: 0;
+    border: 0;
+}
+.text-search{
+    font-size: 20px;
+    
+}
+.search-icon{
+   width: 18px;
+}
+
+.sidebar{
+    background-color: #fff;
+    width: 14%;
+    height: 100vh;
+    padding-left: 2%; 
+    position: absolute; 
+}
+.short-links a {
+    display: flex;
+   padding-top: 10px;
+   width: fit-content;
+   flex-wrap: wrap;
+   align-items: center;
+
+}
+.short-links p{
+    padding-top: 10px;
+    padding-left: 15px;
+}
+hr{
+    border:-1px ;
+}
+.subsrcibed-list a{
+display: flex;
+align-items: center;
+}
+.subsrcibed-list img{
+    width: 30px;
+    margin-top:15px;
+    border-radius: 50%;
+    margin-right: 15px;
+
+}
+p{
+    font-size: 15px;
+    padding-top: 10px;
+}
+.container{
+    background-color: #fff;
+    padding-left: 17%;
+    padding-right: 0;
+    padding-top: 20px;
+    padding-bottom: 20px;
+   
+}
+.pic-size{
+    width: 40px;
+    border-radius: 50%;
+   
+}
+.vid-list{
+    float: left;
+    padding-left: 10px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
